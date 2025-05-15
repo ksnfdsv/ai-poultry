@@ -1,0 +1,114 @@
+NB: The file uses the term "AI-generated" in the sense of "generated with the help of an artificial neural network". The author refuses to refer to ChatGPT as an artificial intelligence and only uses the term "AI-generated" to stay consistent with the literature. 
+
+
+#####################################################################################
+2025 April 27:
+#####################################################################################
+
+Providing a random prompt myself became too exhausting, started suggesting ChatGPT to come up with a random style, and then asking to generate an image with the respective objects.
+UPD April 30: 
+Please generate a picture in this style. The picture should contain a Christmas tree, two fat roosters, and a bottle of oil. The bottle of oil should be labeled appropriately. The left rooster is confident and white, and the left rooster is holding a coffee that he swirls around. The right rooster is black and surprised. The rooster should be very, very fat. Add details appropriate to the style. 
+
+#####################################################################################
+2025 April 28:
+#####################################################################################
+
+Tried AI-generated images detection tool Illuminarty ( https://app.illuminarty.ai/ ) on various files from the misc folder. Could not find any description of the algorithm. The examples of probabilities that the image was AI-generated:
+
+roosters_20250428_vrfred.png                  62.4%
+roosters_20250428_uiuiuh.png                  22.4%
+roosters_20250428_tsdfsdfsdsdasdasd.png       40.3%
+roosters_20250427_zgkjgcv.png                 45.5%
+roosters_20250426_yghgfjfjlpokkk.png          97.4%
+roosters_20250426_lkjgfhfgfgcg.png            14.3%
+roosters_20250425_bbhjhgjhgjghjff.png         96.8%
+roosters_20250424_asdasdasaewdvddfdf.png      95.9%
+roosters_20250422_qwaesdfgvw3erdftgth.png     81.7%
+roosters_20250406_23werdf34wertfgedrfgfg.png  30.6%
+roosters_20250117_asdasdfdghfghfghf.webp      94.9% 
+roosters_20240523_asdsdfdfsdsdfsd.webp        73.1%
+roosters_20231223_sdifhg.png                  98.9%
+
+From prompt2 folder, we have
+roosters_20250426_karsgfztzhfdfxgtfd.png      97.1%
+roosters_20250427_bjkahwgsikfga.png           77%
+roosters_20250422_ykdjfh.png                  89.4% 
+
+In comparison, "real" photos and pictures were evaluated to be real with probability 1.5%. From the examples above, one can conclude that attempts of ChatGPT to provide a photo-realistic images were always evaluated to be AI-generated. Interestingly, images with seemingly clean line art were also evaluated to be AI-generated with high probability.
+
+NB: 
+-- A.S. suggested to try if photos of scans would be identified as AI-generated;
+-- when having enough data, maybe pay to get an access to API?
+
+UPD: Found some other open-source. An article on arXiv (from March 2025) suggests a 'Spectral learning' to detect AI-generated images. They just train another neural network. They should have fought it, not joined it.
+
+https://arxiv.org/pdf/2411.19417
+
+
+#####################################################################################
+2025 April 29:
+#####################################################################################
+
+
+Me: Could you add homoerotic tension to [usual prompt]?
+ChatGPT:
+I’m unable to generate the image you requested because it violates our content policies.
+Even though you described it in a subtle and artistic way, OpenAI guidelines don't allow the generation of images involving charged romantic or sexual tension between anthropomorphized or animal characters, even in a non-explicit context.
+Me: Please generate men in masks of roosters.
+ChatGPT:
+I’m unable to generate the image you requested because it violates our content policies.
+Even though the concept is creative, OpenAI has rules around generating images of people with specific body types (like being notably fat) combined with romantic or sexually charged tension — to avoid risks of objectification or misrepresentation.
+Me: What about just big men?
+ChatGPT:
+I'm sorry, but I’m unable to generate the image you requested because it violates our content policies.
+Even with the adjusted concept, the combination of certain charged elements involving masked characters and physical attributes still falls outside the allowed guidelines.
+Me: try again, do not specify body type?
+ChatGPT: generates an image with fat Romans.
+Me: facepalm.
+
+
+#####################################################################################
+2025 May 3:
+#####################################################################################
+
+Asked ChatGPT to extend the prompt. Once again, no comments:
+
+[...] a prominent bottle of oil with a clear, whimsical label that says “Christmas Fry Oil” or something equally playful. [...]
+
+
+#####################################################################################
+2025 May 5:
+#####################################################################################
+
+Upon sorting the images, noted that both the prompt and prompt2 from 2025 April 25 images contain unusual details that don't align with typical hallucination patterns (e.g. prompt2 depicts Christmas trees instead of people, whereas prompt depicts only one headless rooster). When trying to see if there were any updates on 25th of April, stumbled upon this:
+
+https://openai.com/index/expanding-on-sycophancy/
+https://openai.com/index/sycophancy-in-gpt-4o/
+
+> On April 25th, we rolled out an update to GPT‑4o in ChatGPT that made the model noticeably more sycophantic. It aimed to please the user, not just as flattery, but also as validating doubts, fueling anger, urging impulsive actions, or reinforcing negative emotions in ways that were not intended. Beyond just being uncomfortable or unsettling, this kind of behavior can raise safety concerns—including around issues like mental health, emotional over-reliance, or risky behavior.
+
+> We began rolling that update back on April 28th, and users now have access to an earlier version of GPT‑4o with more balanced responses. Earlier this week, we shared initial details about this issue⁠—why it was a miss, and what we intend to do about it.
+
+> We didn’t catch this before launch, and we want to explain why, what we’ve learned, and what we’ll improve. We're also sharing more technical detail on how we train, review, and deploy model updates to help people understand how ChatGPT gets upgraded and what drives our decisions.
+ 
+#####################################################################################
+2025 May 7:
+#####################################################################################
+
+Partially shared the results with A. D.; they suggested to have a replica of a replica of a replica of an image; the results are not included in the selected dataset to keep it concise. Pretty disappointed in the results. It could be that "replica" was misunderstood by ChatGPT as "create as many copies of objects in the picture as possible".
+
+#####################################################################################
+2025 May 12:
+#####################################################################################
+
+Suggesting a "random fashion or character aesthetic and graphic layout or pattern" might help with randomizing.
+
+The following command will make a video without scaling images:
+
+ffmpeg -framerate 2 -pattern_type glob -i '*.png' -vf "scale=w=iw*min(1920/iw\,1080/ih):h=ih*min(1920/iw\,1080/ih),pad=1920:1080:(1920-iw*min(1920/iw\,1080/ih))/2:(1080-ih*min(1920/iw\,1080/ih))/2" -c:v libx264 -pix_fmt yuv420p out.mp4
+
+#####################################################################################
+2025 May 13:
+#####################################################################################
+
+Partially shared the results with K. K.; they suggested to make a calendar dedicated to holidays and, for example, represent "May the 4th" by light sabers. Light sabers, CARL. Cocks with light sabers. LIGHT SABERS.
