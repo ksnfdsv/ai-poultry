@@ -6,11 +6,14 @@ ChatGPT-generated Imagery Dataset (2023–2025)
 This folder documents the evolution/stagnation/deterioration of ChatGPT-generated images over time. Most images are supposed to feature a pair of high-adiposity male Gallus gallus domesticus specimens (colloquially, fat roosters) and a culinary-grade lipid solution (e.g., oil).
 
 ## Directory Structure
-- misc/
+- misc/...
+  
   Unstructured prompt outputs, e.g., "please generate a Christmas card with two fat roosters and a bottle of oil".
-- prompt/ and prompt2/
+- prompt/... and prompt2/...
+  
   Images generated using fixed prompts. See accompanying `.txt` files for the prompts.
 - Notes
+
   Contains observations and experiments on the dataset. 
 
 ## Methodology
