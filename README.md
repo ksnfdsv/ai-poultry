@@ -7,10 +7,13 @@ This folder documents the evolution/stagnation/deterioration of ChatGPT-generate
 
 ## Directory Structure
 - misc/...
+  
   Unstructured prompt outputs, e.g., "please generate a Christmas card with two fat roosters and a bottle of oil".
 - prompt/... and prompt2/...
+  
   Images generated using fixed prompts. See accompanying `.txt` files for the prompts.
 - Notes
+
   Contains observations and experiments on the dataset. 
 
 ## Methodology
