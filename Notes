@@ -112,3 +112,38 @@ ffmpeg -framerate 2 -pattern_type glob -i '*.png' -vf "scale=w=iw*min(1920/iw\,1
 #####################################################################################
 
 Partially shared the results with K. K.; they suggested to make a calendar dedicated to holidays and, for example, represent "May the 4th" by light sabers. Light sabers, CARL. Cocks with light sabers. LIGHT SABERS.
+
+#####################################################################################
+2025 May 16:
+#####################################################################################
+
+Tried ChatGPT4.5, it refused to create images. However, it re-worked the first prompt:
+
+" 
+
+Create a charming, detailed festive winter scene with the following elements:
+
+**Foreground (left to center):**
+
+* Three elegantly wrapped gifts with luxurious gold ribbons. Use wrapping paper colors in deep, warm tones like burgundy, forest green, and cream to evoke holiday cheer.
+* Two clear glass bottles placed slightly in front of the gifts:
+
+  * One bottle larger, transparent, filled with a rich, golden liquid (suggesting festive cider or infused oil).
+  * The second bottle smaller, opaque, matte-finished, perhaps ceramic or frosted glass, adding subtle elegance.
+
+**Center to right:**
+
+* A lush, snow-laden Christmas tree richly decorated with vibrant red baubles and ornaments. Snow should gently cover branches, providing a cozy winter charm.
+* Beside the tree on the right, two exceptionally large and very fat roosters face each other in a calm, intimate interaction. Emphasize their roundness and rich, fluffy plumage, showcasing a beautiful mix of black, white, and golden-brown feathers, contrasted with vivid red combs and wattles.
+
+**Background:**
+
+* A serene, snow-covered forest, softly blurred or misty for depth. Soft, gentle snowfall enhances the magical, festive mood.
+* Indicate a warm, inviting glow in the sky, suggesting either a peaceful early morning or late afternoon, bathing the scene in soft, golden light.
+* Pine and bare deciduous trees recede into the distance, reinforcing a cozy, storybook ambiance.
+
+The overall image should convey a harmonious blend of holiday warmth, playful charm, and pastoral beauty, ideal for a cozy winter greeting card or storybook illustration. Emphasize the roundness and warmth of the roosters and festive details to create visual appeal and seasonal cheer.
+
+" 
+
+The prompt was later fed to ChatGPT4o to create an image; the result is in "misc" folder.
