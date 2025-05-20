@@ -15,24 +15,24 @@ Please generate a picture in this style. The picture should contain a Christmas 
 
 Tried AI-generated images detection tool Illuminarty ( https://app.illuminarty.ai/ ) on various files from the misc folder. Could not find any description of the algorithm. The examples of probabilities that the image was AI-generated:
 
-roosters_20250428_vrfred.png                  62.4%
-roosters_20250428_uiuiuh.png                  22.4%
-roosters_20250428_tsdfsdfsdsdasdasd.png       40.3%
-roosters_20250427_zgkjgcv.png                 45.5%
-roosters_20250426_yghgfjfjlpokkk.png          97.4%
-roosters_20250426_lkjgfhfgfgcg.png            14.3%
-roosters_20250425_bbhjhgjhgjghjff.png         96.8%
-roosters_20250424_asdasdasaewdvddfdf.png      95.9%
-roosters_20250422_qwaesdfgvw3erdftgth.png     81.7%
-roosters_20250406_23werdf34wertfgedrfgfg.png  30.6%
-roosters_20250117_asdasdfdghfghfghf.webp      94.9% 
-roosters_20240523_asdsdfdfsdsdfsd.webp        73.1%
-roosters_20231223_sdifhg.png                  98.9%
+roosters_20250428_vrfr.png                  62.4%
+roosters_20250428_uiui.png                  22.4%
+roosters_20250428_tsdf.png                  40.3%
+roosters_20250427_zgkj.png                  45.5%
+roosters_20250426_yghg.png                  97.4%
+roosters_20250426_lkjg.png                  14.3%
+roosters_20250425_bbhj.png                  96.8%
+roosters_20250424_asda.png                  95.9%
+roosters_20250422_qwae.png                  81.7%
+roosters_20250406_23we.png                  30.6%
+roosters_20250117_asda.webp                 94.9% 
+roosters_20240523_asds.webp                 73.1%
+roosters_20231223_sdif.png                  98.9%
 
 From prompt2 folder, we have
-roosters_20250426_karsgfztzhfdfxgtfd.png      97.1%
-roosters_20250427_bjkahwgsikfga.png           77%
-roosters_20250422_ykdjfh.png                  89.4% 
+roosters_20250426_kars.png                  97.1%
+roosters_20250427_bjka.png                  77%
+roosters_20250422_ykdj.png                  89.4% 
 
 In comparison, "real" photos and pictures were evaluated to be real with probability 1.5%. From the examples above, one can conclude that attempts of ChatGPT to provide a photo-realistic images were always evaluated to be AI-generated. Interestingly, images with seemingly clean line art were also evaluated to be AI-generated with high probability.
 
@@ -164,3 +164,14 @@ The result is in the folder "prompt/other_networks"
 (I had to shorten the description for Fusion brain, because the limit was 1000 symbols)
 There are three beautifully wrapped gifts, adorned with elegant gold ribbons. The wrapping paper is in dark and light tones. In front of the gifts are two glass bottles. One contains a golden liquid, possibly some festive drink or oil, and the other is a smaller, opaque bottle with a matte finish. A lush Christmas tree stands covered in snow, decorated with red baubles and ornaments. Snow clings to the branches, adding to the festive charm. To the right of the tree stand two  very fat, very big roosters, facing each other. They have beautiful plumage with black, white, and golden-brown feathers, and their red combs stand out vividly against the snowy background. They seem to be interacting or maybe sharing a quiet moment.
 The whole scene is set in a snowy forest. Soft snow is falling, and the light suggests either early morning or late afternoon, with a soft glow in the sky. Pine trees and a few bare trees are visible in the misty distance, creating a magical, serene winter atmosphere.
+
+#####################################################################################
+2025 May 20:
+#####################################################################################
+
+Upon submitting the prompt, obtained the following text:
+
+Processing image
+Lots of people are creating images right now, so this might take a bit. We'll notify you when your image is ready.
+
+(As it turned out a couple of minute ago, nobody paid the subscription)
