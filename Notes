@@ -152,14 +152,16 @@ The prompt was later fed to ChatGPT4o to create an image; the result is in "misc
 2025 May 19:
 #####################################################################################
 
-A.S. suggested to substituted prompts in a couple of other networks:
+A.S. suggested to substitute prompts in a couple of other neural networks. Upon quick googling, the following NN were chosen:
 
 https://www.artguru.ai/ru/create/
 https://rugpt.io/nejroset-dlya-generacii-kartinok
 https://shedevrum.ai/text-to-image/
 https://fusionbrain.ai/
 
-The result is in the folder "prompt/other_networks"
+The result is in the folder "prompt/other_networks". 
+
+UPD 20 May: Shedevrum shortened the prompt without notifying, thus, maybe, the image is so weird.
 
 (I had to shorten the description for Fusion brain, because the limit was 1000 symbols)
 There are three beautifully wrapped gifts, adorned with elegant gold ribbons. The wrapping paper is in dark and light tones. In front of the gifts are two glass bottles. One contains a golden liquid, possibly some festive drink or oil, and the other is a smaller, opaque bottle with a matte finish. A lush Christmas tree stands covered in snow, decorated with red baubles and ornaments. Snow clings to the branches, adding to the festive charm. To the right of the tree stand two  very fat, very big roosters, facing each other. They have beautiful plumage with black, white, and golden-brown feathers, and their red combs stand out vividly against the snowy background. They seem to be interacting or maybe sharing a quiet moment.
@@ -175,3 +177,19 @@ Processing image
 Lots of people are creating images right now, so this might take a bit. We'll notify you when your image is ready.
 
 (As it turned out a couple of minute ago, nobody paid the subscription)
+
+#####################################################################################
+2025 May 20:
+#####################################################################################
+
+Had to shorten prompt2 for Shedevrum:
+
+A whimsical winter scene set in a charming Christmas market village. In the foreground, two very big anthropomorphic roosters are dressed for the holiday season. The larger rooster on the left is plump and fluffy, wearing a red holiday vest with Nordic patterns and a Santa hat, giving off a jolly and cozy vibe. The other rooster, also very fat but equally festive, also wears a Santa hat and stands proudly beside a small wooden stool.
+Between them sits a vintage-style glass bottle of oil.
+
+Found more neural networks for image generation at the link https://aichief.com/ai-image-generator/
+
+Specifically, used these ones:
+
+https://raphael.app/            (shorter prompt, see above)
+https://gemini.google.com
