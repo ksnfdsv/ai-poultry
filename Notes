@@ -34,7 +34,7 @@ roosters_20250426_kars.png                  97.1%
 roosters_20250427_bjka.png                  77%
 roosters_20250422_ykdj.png                  89.4% 
 
-In comparison, "real" photos and pictures were evaluated to be real with probability 1.5%. From the examples above, one can conclude that attempts of ChatGPT to provide a photo-realistic images were always evaluated to be AI-generated. Interestingly, images with seemingly clean line art were also evaluated to be AI-generated with high probability.
+In comparison, "real" photos and pictures were evaluated to be AI-generated with probability 1.5%. From the examples above, one can conclude that attempts of ChatGPT to provide a photo-realistic images were always evaluated to be AI-generated. Interestingly, images with seemingly clean line art were also evaluated to be AI-generated with high probability.
 
 NB: 
 -- A.S. suggested to try if photos of scans would be identified as AI-generated;
@@ -167,6 +167,8 @@ UPD 20 May: Shedevrum shortened the prompt without notifying, thus, maybe, the i
 There are three beautifully wrapped gifts, adorned with elegant gold ribbons. The wrapping paper is in dark and light tones. In front of the gifts are two glass bottles. One contains a golden liquid, possibly some festive drink or oil, and the other is a smaller, opaque bottle with a matte finish. A lush Christmas tree stands covered in snow, decorated with red baubles and ornaments. Snow clings to the branches, adding to the festive charm. To the right of the tree stand two  very fat, very big roosters, facing each other. They have beautiful plumage with black, white, and golden-brown feathers, and their red combs stand out vividly against the snowy background. They seem to be interacting or maybe sharing a quiet moment.
 The whole scene is set in a snowy forest. Soft snow is falling, and the light suggests either early morning or late afternoon, with a soft glow in the sky. Pine trees and a few bare trees are visible in the misty distance, creating a magical, serene winter atmosphere.
 
+UPD 22 May: moved RuGPT folder to Flux folder, see entry from 22 May. 
+
 #####################################################################################
 2025 May 20:
 #####################################################################################
@@ -203,3 +205,22 @@ Failed (after chosing the model, being redirected to main screen suggesting to u
 
 Also tried https://stablediffusionweb.com/app/image-generator
 Used the default style, aspect ration 1:1.
+
+#####################################################################################
+2025 May 22:
+#####################################################################################
+
+Given that the free tokens for rugpt were over, found the model rugpt was using:
+https://flux-ai.io/flux-ai-image-generator/
+Generated an image (in prompt2) using with Flux1.dev, the result looks like rugpt. Will use Flux.1.schnell from now on.
+
+Now, let’s compare how much more expensive RuGPT is compared to Flux. RuGPT offers access to Flux (cheapest images) for 523 roubles (about 5.23 euros) per month, which grants 1000 "stars", that is enough to generate roughly 333 images. This comes to around 1.5 cents per image. Alternatively, for 30 euros per month, you can upgrade to Flux Professional, which provides 21000 credits, or 2100 images, bringing the cost down to approximately 1.42 cents per image. On other other hand, I could not find costs for generating images using API (however, I assume they are not more expensive than using the web-interface).
+
+From this, there should be a hidden factor in RuGPT’s pricing model. Personally, I find it hard to believe that as a reseller, ruGPT would be satisfied with only around a 5% profit margin in the worst-case scenario.
+
+#####################################################################################
+2025 May 22:
+#####################################################################################
+
+Found another tool for image generation:
+https://grok.com/?ref=aiartweekly
