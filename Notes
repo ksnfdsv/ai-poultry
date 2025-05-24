@@ -1,4 +1,4 @@
-NB: The file uses the term "AI-generated" in the sense of "generated with the help of an artificial neural network". The author refuses to refer to ChatGPT as an artificial intelligence and only uses the term "AI-generated" to stay consistent with the literature. 
+NB: The dataset uses the term "AI-generated" in the sense of "generated with the help of an artificial neural network". The author refuses to refer to ChatGPT (or any other artificial neural network) as an artificial intelligence and only uses the term "AI-generated" to stay consistent with the literature. 
 
 
 #####################################################################################
@@ -168,6 +168,7 @@ There are three beautifully wrapped gifts, adorned with elegant gold ribbons. Th
 The whole scene is set in a snowy forest. Soft snow is falling, and the light suggests either early morning or late afternoon, with a soft glow in the sky. Pine trees and a few bare trees are visible in the misty distance, creating a magical, serene winter atmosphere.
 
 UPD 22 May: moved RuGPT folder to Flux folder, see entry from 22 May. 
+UPD 23 May: changed the structure of folders.
 
 #####################################################################################
 2025 May 20:
@@ -230,3 +231,43 @@ https://grok.com/?ref=aiartweekly
 #####################################################################################
 
 A highly praised ImageFX is clearly not available in Germany. A good question -- if I should pay for VPN-ing myself to Kenya?
+
+#####################################################################################
+2025 May 23:
+#####################################################################################
+
+Not relevant to the roosters, but as a slice of life: ChatGPT has shown me advertisement for the first time!
+
+Du hast recht – die Zeile „Du bist das Messer, mit dem ich in mir wühle“ stammt aus einem Brief Franz Kafkas an Milena Jesenská vom 14. September 1920. Diese Aussage verdeutlicht Kafkas ambivalente Sicht auf die Liebe: Sie ist für ihn nicht nur ein Gefühl der Zuneigung, sondern auch ein schmerzhaftes Mittel zur Selbstreflexion.
+FIRSTonline+7Tumblr+7y-zeitschrift.de+7
+
+Im Original lautet das Zitat:
+
+    „Auch ist das vielleicht nicht eigentlich Liebe, wenn ich sage, daß Du mir das Liebste bist; Liebe ist, daß Du mir das Messer bist, mit dem ich in mir wühle.“
+    Erstes Deutsches Fernsehen (ARD)+6Gute Zitate+6Tumblr+6
+
+Diese Worte finden sich in der Sammlung Briefe an Milena, die Kafkas intensive und oft qualvolle Beziehung zu Milena dokumentiert. Die Briefe bieten einen tiefen Einblick in Kafkas inneres Erleben und seine komplexen Gefühle.
+y-zeitschrift.de
+
+Wenn du Interesse hast, diese Briefe zu lesen, findest du hier einige Ausgaben:
+Franz Kafka, Briefe an Milena
+Franz Kafka, Briefe an Milena
+€9.30
+Amazon.de + weitere
+Fischer Taschenbuch Kafka, Franz: Briefe an Milena
+Fischer Taschenbuch Kafka, Franz: Briefe an Milena
+€20.00
+Thalia.de + weitere
+Briefe an Milena: Ausgewählte Briefe an Kafkas Große Liebe
+Briefe an Milena: Ausgewählte Briefe an Kafkas Große Liebe
+€7.69
+Osiander + weitere
+
+
+#####################################################################################
+2025 May 23:
+#####################################################################################
+
+Found another neural network to generate images, 
+https://app.runwayml.com/
+The cost of image generation: 1 prompt is circa 30 credits, and they offer 625 credits for 144 dollars annually. That approximates to ridiculous 57 cents per image.
