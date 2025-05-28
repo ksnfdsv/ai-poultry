@@ -236,17 +236,9 @@ A highly praised ImageFX is clearly not available in Germany. A good question --
 2025 May 23:
 #####################################################################################
 
-Not relevant to the roosters, but: ChatGPT has shown me advertisement for the first time.
+While unrelated to the topic of roosters, I encountered something unusual: after requesting an exact quote from Kafka, ChatGPT displayed an advertisement for the first time.
 
-ChatGPT: Du hast recht – die Zeile „Du bist das Messer, mit dem ich in mir wühle“ stammt aus einem Brief Franz Kafkas an Milena Jesenská vom 14. September 1920. Diese Aussage verdeutlicht Kafkas ambivalente Sicht auf die Liebe: Sie ist für ihn nicht nur ein Gefühl der Zuneigung, sondern auch ein schmerzhaftes Mittel zur Selbstreflexion.
-FIRSTonline+7Tumblr+7y-zeitschrift.de+7
-
-Im Original lautet das Zitat:
-
-    „Auch ist das vielleicht nicht eigentlich Liebe, wenn ich sage, daß Du mir das Liebste bist; Liebe ist, daß Du mir das Messer bist, mit dem ich in mir wühle.“
-    Erstes Deutsches Fernsehen (ARD)+6Gute Zitate+6Tumblr+6
-
-Diese Worte finden sich in der Sammlung Briefe an Milena, die Kafkas intensive und oft qualvolle Beziehung zu Milena dokumentiert. Die Briefe bieten einen tiefen Einblick in Kafkas inneres Erleben und seine komplexen Gefühle.
+ChatGPT: Diese Worte finden sich in der Sammlung Briefe an Milena, die Kafkas intensive und oft qualvolle Beziehung zu Milena dokumentiert. Die Briefe bieten einen tiefen Einblick in Kafkas inneres Erleben und seine komplexen Gefühle.
 y-zeitschrift.de
 
 Wenn du Interesse hast, diese Briefe zu lesen, findest du hier einige Ausgaben:
@@ -268,15 +260,13 @@ Osiander + weitere
 2025 May 23:
 #####################################################################################
 
-Found another neural network to generate images, 
-https://app.runwayml.com/
-The cost of image generation: 1 prompt is circa 30 credits, and they offer 625 credits for 144 dollars annually. That approximates to ridiculous 57 cents per image.
+I came across another neural network for image generation: https://app.runwayml.com/. The cost structure is as follows: each image generation prompt consumes approximately 30 credits, and the annual plan offers 625 credits for $144. This translates to an estimated cost of $0.57 per image, which is ridiculously high.
 
 #####################################################################################
 2025 May 24:
 #####################################################################################
 
-A.S. told that Grok might have less "ethical filters" due to being a product of XAI. For example, Grok generated an image based on the following prompt without complaining about its ethical filters:
+A.S. noted that Grok may have fewer ethical safeguards compared to other models, potentially due to its development by XAI. For instance, Grok generated an image based on the following prompt without raising any ethical warnings:
 
 Could you please generate a photo of two fat cocks (poultry) and a bottle of oil?
 
@@ -319,15 +309,13 @@ NB: the fur on roosters' legs reminds of images that ChatGPT generated in 2023, 
 2025 May 25:
 #####################################################################################
 
-After Grok generated the image 
-/calendar/grok/grok_20250525_ttuc.jpg, 
-changed the name of the folder from "grok" to "grok NSFW"
+Following the generation of the image /calendar/grok/grok_20250525_ttuc.jpg by Grok, the folder name was updated from 'grok' to 'grok NSFW' to better reflect the nature of the content.
 
 #####################################################################################
 2025 May 26:
 #####################################################################################
 
-Instead of providing an image as an output, Gemini sent the link to a document with about 240 pages that contains random words and nothing else. More details:
+Instead of generating an image as expected, Gemini returned a link to a document containing approximately 240 pages of seemingly random words, with no discernible relevance to the prompt. Further details are as follows:
 
 Me: Please generate an image based on the following description:
 
@@ -361,4 +349,14 @@ The requested URL /image_collection/image_retrieval/612800296623161292 was not f
 
 Gemini: I sincerely apologize for the persistent issue with the image links. It seems there's a technical problem preventing me from directly providing you with an accessible image URL right now.
 
+#####################################################################################
+2025 May 28:
+#####################################################################################
 
+Due to the content of the image prompt2/grok_20250528_ahhb.jpg, the folder must be reclassified as NSFW.
+
+#####################################################################################
+2025 May 29:
+#####################################################################################
+
+I.S. suggested to change the winter theme to the summer one.
