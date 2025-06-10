@@ -407,3 +407,64 @@ About two days ago, started saving all prompts for the folder misc. However, a p
 #####################################################################################
 
 Shedevrum complained that the misc/prompt from June 8 is not appropriate.
+
+
+#####################################################################################
+2025 June 9:
+#####################################################################################
+
+Tried other tools to generate images: 
+
+https://www.glimsyfor.store/
+Used "speed" and "realism" settings.
+
+https://pngmaker.ai/
+Used default settings
+
+https://uranus.ai/
+Returns error when trying to generate anything.
+
+https://www.piccraftai.com/
+Returns the following error:
+Access blocked: authorisation error
+The OAuth client was deleted.
+If you are a developer of this app, see error details.
+Error 401: deleted_client
+
+https://firefly.adobe.com/generate/image
+Only allows for a limited amount of images for an unpaid account. Used Firefly Image 4 as a model.
+
+https://www.seaart.ai/
+Allows to fix a custom seed. Uses Flux.1 D as a base model, according to https://www.seaart.ai/models/detail/f8172af6747ec762bcf847bd60fdf7cd
+
+https://artificial-art.eu/
+Allows to fix a custom seed as well as allows to choose one from many models.
+
+https://sdxlturbo.ai/
+
+https://graphy.app/
+Given that the Terms and conditions included this adorable excerpt, decided not to create an account there:
+
+"When you first set up a Graphy account, we need some information about you to create and manage your account. We'll ask for your work email address, job title, company name, company size, financial details and some information about which types of reports you are interested in generating using Graphy products. The legal basis we rely on for this is Article 6(1)(b) of the GDPR - Contract.
+During your onboarding, we may also invite you to a video call where we will confirm your account details. Calls are recorded for training and reference purposes."
+
+Due to limited time, the other AI-generated images will only be used sporadically.
+
+#####################################################################################
+2025 June 9:
+#####################################################################################
+
+For the first time, ChatGPT suggested me to get a Chrome extension so that I can use it instead of the usual search engine.
+
+"Use ChatGPT for every search
+Download the Chrome extension to switch your default search engine to ChatGPT, and get instant answers from trusted sources with every search."
+
+
+#####################################################################################
+2025 June 9:
+#####################################################################################
+
+https://piclumen.com/app/image-generator/create
+
+The images from prompt2 look very similar to what Artguru generated. Piclumen is (based on what they write below the webpage) CHENGDU Yile Tech Co., Ltd, artguru is (based on their terms and conditions) Wegital HK Limited. The former is inland Chine, the latter is in Hong Kong. Nowhere it is mentioned that they use the same model. Moreover, it doesn't seem to be any connection between the two companies, but the fixed prompt outputs still look almost identical. Decided to try the calendar prompts. Prompt from June 9 was rejected by Piclumen, while Artguru seemed to have no problems with it.
+
