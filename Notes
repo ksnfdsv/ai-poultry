@@ -470,3 +470,11 @@ https://piclumen.com/app/image-generator/create
 
 The images from prompt2 look very similar to what Artguru generated. Piclumen is (based on what they write below the webpage) CHENGDU Yile Tech Co., Ltd, artguru is (based on their terms and conditions) Wegital HK Limited. The former is inland Chine, the latter is in Hong Kong. Nowhere it is mentioned that they use the same model. Moreover, it doesn't seem to be any connection between the two companies, but the fixed prompt outputs still look almost identical. Decided to try the calendar prompts. Prompt from June 9 was rejected by Piclumen, while Artguru seemed to have no problems with it.
 
+#####################################################################################
+2025 June 15:
+#####################################################################################
+
+When being asked to generate an image, ChatGPT asked if I would mind sharing my photo to be included in the image:
+
+Before I create the image: since you’d like the card to feature two very fat roosters, a bottle of oil, and many references to Ulysses (including the text "June 15" and "Bloomsday"), could you please confirm —
+Would you like to share a photo of yourself if you want to be included in the scene, or shall I proceed to generate it without any likeness of you?
