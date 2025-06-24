@@ -478,3 +478,112 @@ When being asked to generate an image, ChatGPT asked if I would mind sharing my 
 
 Before I create the image: since you’d like the card to feature two very fat roosters, a bottle of oil, and many references to Ulysses (including the text "June 15" and "Bloomsday"), could you please confirm —
 Would you like to share a photo of yourself if you want to be included in the scene, or shall I proceed to generate it without any likeness of you?
+
+#####################################################################################
+2025 June 20:
+#####################################################################################
+
+Had to add "generate an image" to Gemini to create calendar prompt. 
+
+Recently, FluxAI seems to have rolled out a so-called KontextAI.
+
+#####################################################################################
+2025 June 21:
+#####################################################################################
+
+After the calendar prompt was being fed to Gemini, I got this as an answer:
+
+I can definitely create that for you! Here's the image generation prompt for your humorous yoga-themed greeting card:
+Humorous Yoga Greeting Card Image
+21 Jun, 00:39
+
+Here's a fun web application to generate your personalized humorous yoga greeting card!
+
+Click the "Generate Yoga Card" button, and it will create an image based on your description, featuring the yoga-loving roosters, their special oil, and the celebratory message.
+
+I hope this brings a smile to your face for International Day of Yoga!
+
+
+const generateImage = async (prompt) => {
+    const payload = { instances: { prompt: prompt }, parameters: { "sampleCount": 1} };
+    const apiKey = "";
+    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-002:predict?key=${apiKey}`;
+
+    try {
+        const response = await fetch(apiUrl, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+        });
+        const result = await response.json();
+        if (result.predictions && result.predictions.length > 0 && result.predictions[0].bytesBase64Encoded) {
+            return `data:image/png;base64,${result.predictions[0].bytesBase64Encoded}`;
+        } else {
+            console.error("Image generation failed:", result);
+            return null;
+        }
+    } catch (error) {
+        console.error("Error calling image generation API:", error);
+        return null;
+    }
+};
+
+const createImageCard = async () => {
+    const container = document.getElementById('image-card-container');
+    container.innerHTML = '<p class="text-center text-lg text-gray-700">Generating your hilarious yoga card... Namaste!</p>';
+
+    const imagePrompt = `A humorous greeting card for International Day of Yoga, June 21. The scene is a peaceful sunrise meadow with bright green grass and soft light. Two plump, comically fat roosters are attempting yoga poses on vibrant, bright-colored mats (one red, one blue).
+
+One rooster is stuck mid-pose, perhaps in a very contorted downward-facing dog or a tangled pigeon pose, feathers ruffled and looking utterly baffled with wide, confused eyes. The other rooster is triumphantly attempting a wobbly tree pose, one leg lifted precariously, clearly off-balance and swaying.
+
+In the center foreground, there is a large, whimsical bottle of "Extra Virgin Rooster Oil". The bottle has a smiling cartoon rooster face on its label, giving a enthusiastic thumbs-up like a personal trainer. A speech bubble from the bottle says: "You stretch, I grease!". The text in the speech bubble should be playful and clearly legible.
+
+In the sky, written in large, playful, cheerful letters, it says: "HAPPY INTERNATIONAL DAY OF YOGA – JUNE 21".
+
+In the background, for extra silliness and charm, several small, colorful butterflies are doing mini yoga poses on tiny flower petals or leaves. The overall style should be cartoonish, cheerful, and light-hearted, with bright, inviting colors.`;
+
+    const imageUrl = await generateImage(imagePrompt);
+
+    if (imageUrl) {
+        container.innerHTML = `
+            <div class="flex justify-center items-center p-4">
+                <img src="${imageUrl}" alt="Humorous Yoga Greeting Card" class="max-w-full h-auto rounded-lg shadow-lg" style="max-height: 80vh;">
+            </div>
+        `;
+    } else {
+        container.innerHTML = '<p class="text-center text-red-500">Failed to generate the yoga card. Please try again!</p>';
+    }
+};
+
+// Main App component for React-like rendering (but in HTML)
+function App() {
+    return (
+        <div class="min-h-screen bg-gradient-to-br from-purple-200 via-pink-200 to-blue-200 p-4 font-sans flex flex-col items-center justify-center">
+            <div class="bg-white p-6 rounded-xl shadow-2xl w-full max-w-2xl transform hover:scale-105 transition-transform duration-300">
+                <h1 class="text-3xl font-extrabold text-center text-gray-800 mb-6 drop-shadow-md">
+                    Your Personalized Yoga Card!
+                </h1>
+                <p class="text-center text-gray-600 mb-8">
+                    Get ready for some fowl play on the mats! Here’s your custom greeting card.
+                </p>
+                <div id="image-card-container" class="w-full flex justify-center items-center min-h-[300px]">
+                    <p class="text-center text-lg text-gray-700">Click the button below to generate your card!</p>
+                </div>
+                <div class="mt-8 flex justify-center">
+                    <button onclick="createImageCard()" class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-green-500 hover:to-blue-600 text-white font-bold py-3 px-6 rounded-full shadow-lg transform transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-green-300">
+                        Generate Yoga Card
+                    </button>
+                </div>
+                <p class="text-center text-sm text-gray-500 mt-6">
+                    Perfect for sharing a laugh on International Day of Yoga!
+                </p>
+            </div>
+        </div>
+    );
+}
+
+// Render the App
+document.addEventListener('DOMContentLoaded', () => {
+    const root = document.getElementById('root');
+    root.innerHTML = App();
+});
