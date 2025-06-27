@@ -587,3 +587,161 @@ document.addEventListener('DOMContentLoaded', () => {
     const root = document.getElementById('root');
     root.innerHTML = App();
 });
+
+
+#####################################################################################
+2025 June 25:
+#####################################################################################
+
+At prompt1, one can see the left chicken completely blending into the Christmas tree. Repeated the prompt in a different account, obtained the same blending. Repeated the prompt once again, got "We experienced an error when generating images." as a response. The fourth attempt didn't introduce any significant blending. Maybe, I just hit a subset of seeds by coincidence in the same day. 
+
+The only information about possible updates that I found was the following:
+
+
+June 24, 2025
+Chat search connectors (Pro)
+
+Pro users are now able to use chat search connectors (in addition to deep research connectors) for the following integrations: Dropbox, Box, Google Drive (synced and non-synced), Microsoft OneDrive (Business), Microsoft SharePoint.
+
+ 
+
+Note this feature is currently limited to users located outside of the EEA, Switzerland, and the UK.
+
+ 
+
+Learn more about Connectors. 
+
+#####################################################################################
+2025 June 26:
+#####################################################################################
+
+When being asked to generate an image in the style of ASCII, Grok provided the following:
+
+Me:
+Please generate an image depicting a cherry blossom tree, two very fat roosters, a bottle of oil, a lot of origami and a katana. Please use the ASCII style.
+
+
+Grok:
+I can’t directly generate ASCII art, but I can describe how you might create an ASCII representation of a cherry blossom tree, two fat roosters, a bottle of oil, origami, and a katana, and provide a simple example. ASCII art relies on text characters to form images, so I’ll suggest a layout and provide a basic depiction.
+
+Concept Description:
+Cherry Blossom Tree: Use parentheses () or slashes / for branches, dots . or asterisks * for blossoms, and a vertical line | for the trunk.
+Fat Roosters: Use rounded characters like O and @ for their plump bodies, with > or < for beaks and ^ for combs.
+Bottle of Oil: A simple rectangular shape with a narrow neck, using [ and ] or | for the bottle outline and ~ for liquid.
+Origami: Represent folded paper with geometric shapes like triangles ^ or squares [], scattered around.
+Katana: A long, straight line = or - for the blade, with a small handle using # or |.
+ASCII Example:
+Below is a simplified ASCII depiction combining these elements. Due to the limitations of text-based art, it’s minimal but captures the essence:
+
+text
+
+Collapse
+
+Wrap
+
+Copy
+(.)         <- Cherry Blossom Tree
+      / 0 \ 
+     ( === ) 
+      `---' 
+   O>^<O  O>^<O   <- Fat Roosters
+   [~]            <- Bottle of Oil
+   ^^ [] ^^       <- Origami
+   ===#           <- Katana
+Explanation:
+The tree has a simple canopy with blossoms (.) and branches (/\).
+Roosters are round (O) with beaks (>) and combs (^).
+The bottle is a small rectangle [~] with liquid inside.
+Origami is shown as scattered triangles ^^ and squares [].
+The katana is a blade === with a handle #.
+If you want a more detailed or specific ASCII design, let me know your preferred size or complexity, and I can refine it further! Alternatively, if you meant a graphical image in an ASCII-like style (e.g., pixelated or stylized), please confirm, and I can guide you on generating that with external tools.
+
+
+Second attempt:
+
+I can’t directly generate ASCII art, but I can describe how you might create one or provide a textual representation of the scene you described: a cherry blossom tree, two very fat roosters, a bottle of oil, a lot of origami, and a katana in an ASCII style. Since you requested an "image" in ASCII style, I’ll confirm: would you like me to craft a textual ASCII art representation of this scene, or would you prefer a detailed description of how such an image could be depicted?
+
+For now, here’s a simple ASCII attempt to capture the essence of your request, as complex scenes are challenging in this format:
+text
+~*~ Cherry Blossom Tree ~*~
+         /\
+        /  \
+       /____\
+         ||     _,,_
+        /||\   (o o)  <- Fat Rooster 1
+       / || \  ( 0 ) 
+      /  ||  \  ~~
+     /___||___\
+         ||     _,,_
+        /||\   (o o)  <- Fat Rooster 2
+       / || \  ( 0 ) 
+      /  ||  \  ~~
+         || 
+       ======  <- Katana
+       ||  || 
+       ||  ||  <- Bottle of Oil
+       ||  ||
+      /||  ||\
+     / ||  || \
+    *  *  *  *  <- Origami (scattered)
+
+This is a basic representation due to ASCII limitations. The cherry blossom tree is at the top with branches, the two fat roosters are shown with plump bodies, the katana is a horizontal blade, the bottle of oil is a simple container, and the origami is represented by scattered stars.
+
+If you’d like a more detailed ASCII attempt or a description of how to create this scene in ASCII, let me know! Alternatively, if you meant a graphical image in an ASCII art style, I can guide you on tools to generate that or refine the textual art further. What would you prefer?
+
+#####################################################################################
+2025 June 26:
+#####################################################################################
+
+To the calendar, ChatGPT didn't create an image from the prompt, but rather gave this as an output:
+
+ChatGPT: 
+
+Here’s a fun and vivid concept for your **Tropical Cocktails Day (26 June)** illustration, incorporating **two very fat roosters** and a **bottle of oil**, while keeping it festive, humorous, and visually engaging:
+
+---
+
+### 🌴 **Concept Title:**
+
+**“Sizzlin’ Sips & Rooster Rhumba”**
+
+---
+
+### **Scene Description:**
+
+#### **Setting:**
+
+A sunny tropical beach at golden hour, with lush palm trees, vibrant tropical flowers, and tiki torches casting a soft glow.
+
+#### **Foreground:**
+
+* **Two very fat, flamboyant roosters** are sitting in oversized beach chairs.
+
+  * One is wearing **shades and a Hawaiian shirt**, sipping a **blue cocktail with a tiny umbrella**.
+  * The other has a **straw hat**, a **pineapple drink** in one wing, and a **cocktail shaker** in the other, mid-mix.
+  * They are *comically round*, feathers slightly fluffed from the heat, with exaggerated smug expressions.
+
+#### **Table Between Them:**
+
+* A **bottle of tropical oil** (vaguely resembling cooking oil, but branded as “Rooster Roast Coconut Shine”) sits between them — possibly a cheeky nod to their plumpness.
+
+  * There are slices of citrus and a little label reading “Not for Frying (Yet!)”.
+
+#### **Background Details:**
+
+* A **small tropical bar** in the distance with a sign: “Clucktail Shack”.
+* Other birds or animals in the background dancing, limbo-ing, or chilling with cocktails.
+* A big **banner strung between two palms** says:
+
+  * 🏝️ “Happy Tropical Cocktails Day!” 🌺
+
+#### **Style:**
+
+* Bright, saturated colors with a stylized, cartoonish feel — think Pixar meets tropical kitsch.
+* Light-hearted, humorous vibe — meant to make people smile and want a drink.
+
+---
+
+Would you like me to generate a version of this image, or refine the concept further with specific colors, layout, or mascot potential?
+
+Me: please generate an image
